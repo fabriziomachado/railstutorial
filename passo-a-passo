@@ -53,3 +53,20 @@
   602  git branch -D topic-branch 
   604  git push
   605  history > passo-a-passo-github
+
+
+
+
+  620  echo "1.4 - DEPLOYNG"
+
+  621  gem install heroku
+  622  gem list heroku
+  623  heroku keys:add
+  624  more  /home/fabrizio/.ssh/id_rsa.pub
+  625  heroku create
+  626  Created http://strong-meadow-43.heroku.com/ | git@heroku.com:strong-meadow-43.git
+  627  git push heroku master
+  628  heroku open
+  629  heroku rename railstutorial
+  630  ll
+  631  history > passo-a-passo-heroku
