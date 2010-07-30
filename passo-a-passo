@@ -70,3 +70,16 @@
   629  heroku rename railstutorial
   630  ll
   631  history > passo-a-passo-heroku
+
+  RSPEC
+
+    651  gem install autotest -v 4.3.2
+  652  gem install autotest-rails -v 4.1.0
+  653  gem install autotest-fsevent -v 0.2.2
+  654  gem install autotest-growl -v 0.2.4
+  655  vim .autotest
+
+  656  rails generate rspec:install
+
+
+  661  rspec spec/
