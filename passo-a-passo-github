@@ -1,0 +1,55 @@
+
+  
+ 
+  509  rvm use ree@rails3
+  512  rails new railstutorial
+       echo 'rvm use ree@rails3' > .rvmrc
+
+
+  514  cd ~/.ssh
+  516  ssh-keygen -t rsa -C "fcm@unesc.net"
+ 
+
+  518  more id_rsa
+  519  sudo apt-get install xclip
+  520  cat /home/fabrizio/.ssh/id_rsa.pub | xclip -sel clip
+
+
+  546  chmod 700 ~/.ssh
+  547  chmod 600 ~/.ssh/*
+ 
+
+  557  ssh -v git@github.com
+  558  git config --global user.name "fabrizio"
+  559  git config --global user.email fcm@unesc.net
+
+
+  566  cd /home/fabrizio/NetBeansProjects/rails/railstutorial/
+  567  git init
+  568  touch README 
+  569  git add README
+  570  git commit -m 'first commit'
+  
+571  git remote add origin git@github.com:fcm/railstutorial.git
+  572  git push origin master
+
+  574  git add .
+  576  git commit -a -m 'first commit'
+  579  git push
+
+  580  git checkout -b modify-README
+  582  git mv README README.markdown 
+  584  gmate README.markdown 
+  585  git status
+  586  git commit -a -m "Improved the README file"
+  587  git checkout master 
+  588  git merge modify-README 
+  594  git branch -d modify-README 
+  596  git checkout -b topic-branch
+  597  git add .
+  598  git commit -a -m "Screwed up"
+  599  git checkout master 
+  601  git status
+  602  git branch -D topic-branch 
+  604  git push
+  605  history > passo-a-passo-github
