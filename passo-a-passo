@@ -30,7 +30,7 @@
   569  git add README
   570  git commit -m 'first commit'
   
-571  git remote add origin git@github.com:fcm/railstutorial.git
+  571  git remote add origin git@github.com:fcm/railstutorial.git
   572  git push origin master
 
   574  git add .

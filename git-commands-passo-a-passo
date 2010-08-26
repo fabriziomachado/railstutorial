@@ -1,0 +1,14 @@
+
+  688  sudo apt-get install ssh
+  689  git -v
+  690  sudo apt-get install ssh
+  691  git --version
+  \
+  692  ssh-keygen -t rsa
+  693  more /home/fabrizio/.ssh/id_rsa.pub 
+  694  more /home/fabrizio/.ssh/id_rsa
+  6
+  95  ssh-keygen -t rsa
+  696  git config --global user.email "fabrizio.machado@gmail.com"
+  697  git config --global user.name "fabrizio"
+
