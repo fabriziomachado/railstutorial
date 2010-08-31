@@ -1,4 +1,6 @@
 Railstutorial::Application.routes.draw do |map|
+  resources :users
+
   get "pages/home"
 
   get "pages/contact"
