@@ -71,6 +71,18 @@
   630  ll
   631  history > passo-a-passo-heroku
 
+
+    ## Renaming apps
+    $ heroku rename newname
+    ## Renaming without a checkout
+    $ heroku rename newname --app oldname
+    ## Manually updating a Git remote
+    $ git remote rm heroku
+    $ git remote add heroku git@heroku.com:newname.git
+
+
+
+
   RSPEC
 
     651  gem install autotest -v 4.3.2
