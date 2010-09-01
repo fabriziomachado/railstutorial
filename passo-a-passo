@@ -2,9 +2,10 @@
   
  
   509  rvm use ree@rails3
-  512  rails new railstutorial
+  512  rails new railstutorial -T
        echo 'rvm use ree@rails3' > .rvmrc
 
+       rails generate rspec:install
 
   514  cd ~/.ssh
   516  ssh-keygen -t rsa -C "fcm@unesc.net"
@@ -57,7 +58,7 @@
 
 
 
-  620  echo "1.4 - DEPLOYNG"
+  620  echo "1.4 - DEPLOYNG HEROKU"
 
   621  gem install heroku
   622  gem list heroku
@@ -85,6 +86,10 @@
     $ git push heroku master
     $ heroku rake db:migrate
 
+
+    ## inclui os dados junto
+    $ [sudo] gem install taps
+    $ heroku db:push
 
 
   RSPEC
