@@ -104,3 +104,5 @@
 
 
   661  rspec spec/
+  
+       bundle exec rspec spec/controllers/
