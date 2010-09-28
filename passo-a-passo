@@ -106,3 +106,21 @@
   661  rspec spec/
   
        bundle exec rspec spec/controllers/
+       
+       
+       
+       
+       
+5.2.1 Integration tests
+
+Listing 5.17. Additions to .autotest needed to run integration tests with Autotest on Ubuntu Linux.  
+Autotest.add_hook :initialize do |autotest|
+  autotest.add_mapping(%r%^spec/(requests)/.*rb$%) do|filename, _|
+    filename
+  end
+end 
+
+
+5.3 User signup: A first step
+
+       
