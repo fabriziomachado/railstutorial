@@ -121,6 +121,7 @@ Autotest.add_hook :initialize do |autotest|
 end 
 
 
-5.3 User signup: A first step
+5.3 User signup: A first step (parei aqui)
+
 
        

@@ -1,4 +1,6 @@
 Railstutorial::Application.routes.draw do |map|
+  get "users/new"
+
   resources :microposts
 
   #resources :users
@@ -11,7 +13,6 @@ Railstutorial::Application.routes.draw do |map|
   match '/help',    :to => 'pages#help'
   match '/home',    :to => 'pages#home'
 
- root :to => "pages#home"
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
@@ -20,6 +21,7 @@ Railstutorial::Application.routes.draw do |map|
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'
 
+  root :to => "pages#home"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
