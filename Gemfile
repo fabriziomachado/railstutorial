@@ -13,13 +13,13 @@ gem "rails3-generators"
 
 
 group :development do
-  gem 'rspec-rails', '2.0.0.beta.18'
   gem 'annotate-models'
   gem 'faker', '0.3.1'
 end
 
 group :test do
-  gem 'rspec',       '2.0.0.beta.18'
+  gem 'rspec-rails', ">= 2.0.0.beta"
+  gem 'rspec',       '>= 2.0.0.beta'
   gem 'spork', '0.8.4'
   gem 'factory_girl_rails', '1.0'
 

@@ -1,5 +1,4 @@
-
-  
+ 
  
   509  rvm use ree@rails3
   512  rails new railstutorial -T
@@ -120,8 +119,13 @@ Autotest.add_hook :initialize do |autotest|
   end
 end 
 
+ Instalando InfinityTest
 
-5.3 User signup: A first step (parei aqui)
+ http://github.com/tomas-stefano/infinity_test/wiki/Customize-Infinity-Test
+
+
+Chapter 6 Modeling and viewing users, part I (parei aqui)
+
 
 
        
