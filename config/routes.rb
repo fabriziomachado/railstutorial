@@ -1,4 +1,6 @@
 Railstutorial::Application.routes.draw do |map|
+  get "user/new"
+
   get "users/new"
 
   resources :microposts
