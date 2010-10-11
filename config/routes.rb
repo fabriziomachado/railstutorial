@@ -1,11 +1,10 @@
 Railstutorial::Application.routes.draw do |map|
-  get "user/new"
 
   get "users/new"
 
   resources :microposts
+  resources :users
 
-  #resources :users
   #get "pages/home"
   #get "pages/contact"
   #get "pages/about"

@@ -123,6 +123,12 @@ end
 
  http://github.com/tomas-stefano/infinity_test/wiki/Customize-Infinity-Test
 
+ Instalando Tools de IRB
+  gem install irbtools
+  gem install irb_rocket --source http://merbi.st
+
+
+
 
 Chapter 6 Modeling and viewing users, part I (parei aqui)
 

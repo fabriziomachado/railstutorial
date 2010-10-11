@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/helpers/application_helper.rb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/controllers/pages_controller.rb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/views/pages/home.html.erb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/views/pages/about.html.erb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/views/layouts/_header.html.erb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/views/pages/contact.html.erb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/views/pages/help.html.erb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/config/routes.rb</file>
+        <file>file:/home/fabrizio/NetBeansProjects/rails/railstutorial/app/controllers/users_controller.rb</file>
+    </open-files>
 </project-private>
